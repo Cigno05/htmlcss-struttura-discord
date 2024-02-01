@@ -87,6 +87,8 @@ button{
     width: 100%;
 }
 
+/* style */
+
 .title [class^='col']{
     margin: 0 auto;
     min-height: 200px;
