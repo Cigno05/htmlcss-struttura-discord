@@ -25,14 +25,17 @@ img {
     flex-wrap: wrap;
 }
 
+.col{
+    min-height: 30px;
+}
+
 .logo{
     background-color: #ADD8E6;
 }
 
 .logo .col{
-    padding: 0;
+    background-color: #DAA520;
 }
-
 .perc25{
     width: calc(100% / 4);
 }
@@ -51,6 +54,15 @@ img {
 
 .perc80{
     width: 80%;
+}
+.title .col{
+    margin: 0 auto;
+    min-height: 150px;
+    background-color: #EE82EE;
+}
+
+.title {
+    background-color: #00008B;
 }
 
 
@@ -73,5 +85,5 @@ img {
 .debug .col{
     border: 2px solid red;
     padding: 10px;
-    min-width: 100px;
+    
 }
