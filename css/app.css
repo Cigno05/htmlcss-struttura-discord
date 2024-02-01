@@ -29,7 +29,7 @@ button{
     flex-wrap: wrap;
 }
 
-.col{
+[class^='col']{
     min-height: 30px;
 }
 
@@ -37,41 +37,57 @@ button{
     background-color: #ADD8E6;
 }
 
-.logo .col{
+.logo [class^='col']{
     background-color: #DAA520;
 }
-.perc25{
-    width: calc(100% / 4);
+/* column width */
+.col-1 {
+    width: calc((100% / 12) * 1);
 }
 
-.perc50{
-    width: calc(100% / 2);
+.col-2{
+    width: calc((100% / 12) * 2);
+}
+.col-3{
+    width: calc((100% / 12) * 3);
 }
 
-.perc33{
-    width: calc(100% / 3);
+.col-4{
+    width: calc((100% / 12) * 4);
 }
 
-.perc66{
-    width: calc((100% / 3) * 2);
+.col-5{
+    width: calc((100% / 12) * 5);
 }
 
-.perc80{
-    width: 80%;
+.col-6{
+    width: calc((100% / 12) * 6);
 }
 
-.perc100{
+.col-7{
+    width: calc((100% / 12) * 7);
+}
+
+.col-8{
+    width: calc((100% / 12) * 8);
+}
+
+.col-9{
+    width: calc((100% / 12) * 9);
+}
+
+.col-10{
+    width: calc((100% / 12) * 10);
+}
+
+.col-11{
+    width: calc((100% / 12) * 11);
+}
+.col-12{
     width: 100%;
 }
 
-.perc2-12{
-    width: calc((100% / 12) * 2);
-}
-
-.perc4-12{
-    width: calc((100% / 12) * 4);
-}
-.title .col{
+.title [class^='col']{
     margin: 0 auto;
     min-height: 200px;
     background-color: #EE82EE;
@@ -81,14 +97,14 @@ button{
     background-color: #00008B;
 }
 
-.card .col{
+.card [class^='col']{
     min-height: 150px;
 
 }
-.card .perc66 {
+.card .col-8 {
     background-color: #1E90FF;
 }
-.card .perc33{
+.card .col-4{
     background-color: #FFC0CB;
 }
 .reverse{
@@ -99,28 +115,28 @@ button{
     background-color: #D3D3D3;
 }
 
-.card .perc100{
+.card .col-12{
     background-color: #228B22;
     min-height: 300px;
 }
 
-.foot, .foot-button{
+.foot-top, .foot-bottom{
     background-color: #23272A;
     border-bottom: solid 2px #D3D3D3;
 }
-.foot .col{
+.foot-top [class^='col']{
     min-height: 200px;
     display: flex;
 }
 
-.foot .perc4-12{
+.foot-top .col-4{
     background-color: #F08080;
 }
-.foot .perc2-12{
+.foot-top .col-2{
     background-color: #20B2AA;
 }
 
-.foot-button .perc100{
+.foot-bottom .col-12{
     background-color: #7FFFD4;
     min-height: 50px;
     
@@ -133,7 +149,7 @@ button{
     min-height: 20px;
 }
 
-.foot-button .col{
+.foot-bottom [class^='col']{
     display: flex;
     justify-content: space-between;
 }
@@ -156,7 +172,7 @@ button{
     padding: 10px;
 }
 
-.debug .col{
+.debug [class^='col']{
     border: 2px solid purple;
     padding: 10px;
     
