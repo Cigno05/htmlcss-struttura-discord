@@ -25,6 +25,36 @@ img {
     flex-wrap: wrap;
 }
 
+.logo{
+    background-color: #ADD8E6;
+}
+
+.logo .col{
+    padding: 0;
+}
+
+.perc25{
+    width: calc(100% / 4);
+}
+
+.perc50{
+    width: calc(100% / 2);
+}
+
+.perc33{
+    width: calc(100% / 3);
+}
+
+.perc66{
+    width: calc((100% / 3) * 2);
+}
+
+.perc80{
+    width: 80%;
+}
+
+
+
 
 
 
@@ -43,5 +73,5 @@ img {
 .debug .col{
     border: 2px solid red;
     padding: 10px;
-    min height: 100px;
+    min-width: 100px;
 }
