@@ -55,14 +55,41 @@ img {
 .perc80{
     width: 80%;
 }
+
+.perc100{
+    width: 100%;
+}
 .title .col{
     margin: 0 auto;
-    min-height: 150px;
+    min-height: 200px;
     background-color: #EE82EE;
 }
 
 .title {
     background-color: #00008B;
+}
+
+.card .col{
+    min-height: 150px;
+
+}
+.card .perc66 {
+    background-color: #1E90FF;
+}
+.card .perc33{
+    background-color: #FFC0CB;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.gray-section{
+    background-color: #D3D3D3;
+}
+
+.card .perc100{
+    background-color: #228B22;
+    min-height: 300px;
 }
 
 
@@ -83,7 +110,7 @@ img {
 }
 
 .debug .col{
-    border: 2px solid red;
+    border: 2px solid purple;
     padding: 10px;
     
 }
